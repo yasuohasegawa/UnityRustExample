@@ -1,0 +1,13 @@
+[package]
+name = "rustdlltest"
+version = "0.1.0"
+authors = [""]
+
+[dependencies]
+libc = "0.2.43"
+# See http://doc.crates.io/manifest.html
+
+[lib]
+name = "rust_unity"
+path = "src/lib.rs"
+crate-type = ["dylib"]
